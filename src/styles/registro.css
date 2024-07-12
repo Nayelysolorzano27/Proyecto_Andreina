@@ -1,0 +1,105 @@
+/* Estilos generales */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0; /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen *//* Este será el color de fondo en caso de que la imagen no se cargue o se despliegue incompleta */
+}
+
+
+/* Estilos para el formulario */
+form {
+    max-width: 800px; /* Incrementa el ancho del formulario */
+    margin: 0 auto;
+    padding: 10px 20px; /* Reduce el padding vertical, manteniendo el horizontal */
+    background-color: #d8cbcb8c;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las etiquetas de entrada */
+label {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Reduce el margen inferior */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de envío */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 30%;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para los mensajes de error */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Estilos para el calendario */
+#calendar {
+    max-width: 505px;
+    margin: 0 auto;
+}
+
+/* Estilos para el contenedor del calendario */
+.contenedor-calendario {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 800;
+}
+
+.contenedor-calendario.invisible {
+    display: none;
+}
+
+/* Estilos adicionales */
+.red {
+    border-color: red;
+}
+
+/* Estilos para centrar el texto "Tutorías virtuales" */
+.img-titulo-E {
+    text-align: center;  /* Centra el contenido dentro de este div */
+    margin-bottom: 20px; /* Opcional: agrega espacio debajo */
+}
+
+.titulo {
+    font-size: 2em;      /* Ajusta el tamaño de la fuente */
+    color: #333;         /* Ajusta el color de la fuente */
+}
+
+.titulo span {
+    color: #c2352b;      /* Ajusta el color de la palabra "Tutorías" */
+}
+

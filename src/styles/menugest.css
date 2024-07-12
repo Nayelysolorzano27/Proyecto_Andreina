@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Secular+One&family=Yeseva+One&display=swap');
+*{
+    box-sizing: content-box;
+}
+section{
+    background-color: rgb(212, 212, 212);
+    height: 400px;
+}
+.body-menu{
+    margin: 1% 5%;
+    height: 400px;
+    display: flexbox;
+    font-family: sans-serif;
+}
+.content-title{
+    margin-bottom: 40px;
+}
+.title1{
+    margin-bottom: 40px;
+}
+.content-button{
+    display: flex;
+}
+.menu{
+    display: block;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    color: black ;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+
+}

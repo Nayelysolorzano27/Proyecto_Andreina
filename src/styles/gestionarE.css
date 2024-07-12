@@ -1,0 +1,73 @@
+/* GestionEstudiante.css */
+.gestion-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.headerLine {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.headerText {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#second {
+    margin-bottom: 20px;
+}
+
+#second button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#second button:hover {
+    background-color: #0056b3;
+}
+
+#main table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#main th, #main td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#main th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+#main td button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#main td button:hover {
+    background-color: #218838;
+}

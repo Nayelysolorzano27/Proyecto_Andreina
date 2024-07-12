@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100&;400;500&display=swap");
+
+
+:root {
+  --color-rose-red: #bc0653;
+  --color-dark: #131313;
+  /*--color-blue-dark-osc: #011d49;
+  --color-tumbleweed: #e3b5a4;*/
+  --color-negro: rgb(0, 0, 0);
+  --color-blanco: rgb(255, 255, 255);
+  /*--color-background: #267ba8;*/
+
+  --fuente-1: "Signika Negative", sans-serif;
+  --fuente-2: "Noto Sans SC", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  margin: 0;
+}
+/*index {
+  background-image: url(/TUTORIAS-FACCI/IMG/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 78vh;
+  height: 105vh;
+}*/
+
+.item {
+  height: 100vh;
+}
+
+/*.textos-header{
+  display: flex;
+  height: 641px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: var(--fuente-1);
+  font-family: monospace;
+  font-size: 50px;
+  background: linear-gradient(194.01deg, #FDFAF5 9.6%, #F9F8F5 28.28%, #EAF2F5 89.64%);
+ 
+}*/
+
+
+main .sobre-nosotros{
+  padding: 30px 0 60px 0;
+}
+.contenedor-sobre-nosotros{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagen-about-us{
+  width: 23.25%;
+  position: fixed;
+  left: 1470px;
+  top: 101px;
+}

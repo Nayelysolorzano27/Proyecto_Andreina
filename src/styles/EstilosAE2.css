@@ -1,0 +1,237 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.LogoUleam{
+    display: flex;
+}
+.LogoUleam img{
+    margin-left: 40px;
+    height: 80px;
+    width: 285px;
+}
+
+/*BOTON ACEPTAR y BOTON REGRESAR*/
+/*--------------------------------------------------------*/
+.Botones-Aceptar-Regresar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.B1{
+    font-size: 18px;
+    background-color: rgb(247, 28, 20);
+    position: relative;
+    transform: translate(0%, 120%);
+}
+
+.B2{
+    font-size: 18px;
+    background-color: rgb(247, 28, 20);
+    position: relative;
+    transform: translate(0%, 120%);
+}
+
+a button{
+    color: white;
+    background-color: rgb(247, 28, 20);
+    border-radius: 5px;
+    width: 115px;
+    height: 55px;
+    cursor: pointer;
+    margin-right: 40px;
+    border-color: none;
+    transition: .2s;
+}
+a button:hover{
+    background-color: rgb(247, 28, 20);
+    width: 115px;
+    height: 55px;
+    transition: .2s;
+}
+
+
+/*---------------PIE DE PÁGINA---------*/
+footer{
+    margin-top: 40px;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 170px;
+    background-color: #232325;
+    padding-top: 30px;
+    align-items: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.LogoUleam2 img{
+    align-content: center;
+    height:60px;
+    width: 190px;
+}
+
+.navv a{
+    text-decoration: none;
+    color: rgb(231, 228, 228);
+    display:contents;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    cursor: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*-----------------------------------------------*/
+
+
+/*TITULO*/
+/*-------------------------------*/
+.Titulo-Subir_Actividades{
+    text-align: center;
+    font-size: 25px;
+    transform: translate(0%, 35%);
+}
+
+/*-------------------------------*/
+
+
+
+/*Descripción*/
+/*-------------------------------*/
+.Descripcion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0%, 25%);
+}
+
+.Descripcion label{
+    font-size: 20px;
+    transform: translate(-5%, -160%);
+}
+.Descripcion textarea{
+    height: 120px;
+    width: 700px;
+    resize: none;
+    background: #bcbbbb;
+    transform: translate(0%, 10%);
+}
+/*-------------------------------*/
+
+/*Agregar Archivo*/
+/*--------------------------------------------------------------------------------------------------------*/
+/*Input*/
+.Agregar_Archivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0%, 25%);
+}
+
+.Body-Agregar_Archivo{
+    margin-top: 40px;
+    margin-left: 70px;
+    background: #bcbbbb;
+    height: 125px;
+    width: 600px;
+}
+
+.Contenido-A{
+    background: #bcbbbb;
+    border: 1px dashed rgb(116, 115, 115);
+    height: 125px;
+    width: 350px;
+}
+
+.Boton-Subir-1A{
+    position: relative;
+    margin-left: -150px;
+    top: -135%;
+}
+
+.Boton-Subir-1A label{
+    font-size: 20px;
+}
+/**/
+.LogoIcono img{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 75px;
+    width: 75px;
+}
+
+/*------MENSAJE DE SUBIR ARCHIVO------*/
+.Mensaje-1A{
+    position: relative;
+    margin-left: 100px;
+    top: -50%;
+    font-size: 14px;
+}
+
+.Mensaje-1A h3{
+    position: relative;
+    bottom: 20px;
+}
+
+.Mensaje-1A h5{
+    color: #e1dfdf;
+}
+/*--------------------------------------*/
+
+/*---------Boton Upload file----------*/
+.Button-upload{
+    position: relative;
+    padding: 11px 19px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 80px;
+    color: #fff;
+    background-color: #232325;
+    border: 0;
+    transform: translate(262.5%, 13%);
+    overflow: hidden;
+    width: 200px;
+}
+
+.Button-upload input[type="file"]{
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(3);
+    opacity: 0;
+}
+
+.Button-upload:hover{
+    background-color: rgb(247, 28, 20);
+    transition: .2s;
+    border-color: #232325;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+

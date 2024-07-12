@@ -1,0 +1,84 @@
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+    grid-gap: 20px; /* Espacio entre celdas */
+    margin: 0 150px;
+    align-items: start;
+    justify-content: center;
+  }
+  
+  .formulario__grupo {
+    margin: 10px 0; /* Espacio entre grupos de entrada */
+  }
+  
+  .formulario__grupo-input {
+    width: 70%; /* Entrada ocupa el ancho completo de la celda */
+  }
+  
+  .formulario-input {
+    width: 50%;
+    background-color: #bbbbbb;
+    border: 1px solid #bbbbbb;
+    font-family: "Noto Sans SC", sans-serif;
+    line-height: 1.5;
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box; /* Incluye el padding en el ancho */
+  }
+  
+  #grupo__tema {
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+  }
+  
+  #grupo__time {
+    grid-column: 2 / 3; /* Ocupa la segunda columna */
+  }
+  
+  #grupo__tareas {
+    grid-column: 3 / 4; /* Ocupa la tercera columna */
+  }
+  
+  #grupo__group {
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+  }
+  
+  #grupo__tutoria {
+    grid-column: 2 / 3; /* Ocupa la segunda columna */
+  }
+  
+  #grupo__proxtutoria {
+    grid-column: 3 / 4; /* Ocupa la tercera columna */
+  }
+  
+  #grupo__observaciones {
+    grid-column: 1 / 4; /* Ocupa las tres columnas */
+  }
+  
+  #grupo__tipotutoria {
+    grid-column: 2 / 4; /* Ocupa la segunda y tercera columna */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  #grupo__button {
+    grid-column: 1 / 4; /* Ocupa las tres columnas */
+    text-align: center; /* Centrar los botones */
+  }
+  
+  .formulario-button {
+    font-family: "Signika Negative", sans-serif;
+    color: #fff;
+    background-color: #dd1414;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .formulario-button:hover {
+    background-color: rgba(230, 20, 12, 0.938);
+  }
+

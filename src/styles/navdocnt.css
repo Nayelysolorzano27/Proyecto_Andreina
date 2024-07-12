@@ -1,0 +1,56 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;/*ancho*/
+    height: 80px;/*altura*/
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 25px -22px black; /* ancho de sombra, movimiento hacia abajo, grosor o desvanecimiento de sombra, posicion o tamaño de sombra, color*/
+    z-index: 2; /* para traer adelante de los demas elementos*/
+}
+.header-content{
+    display: flex; /* flex para poner las cajas una de lado de otra*/
+    justify-content: space-between;/* Distribuir items uniformemente El primer item al inicio, el último al final */
+}
+
+.logo{
+    height: 80px; /*altura referente al tamaño de contenedor padre (header)*/
+    display: flex; /*Indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible*/
+    justify-content: center;/*Ambas propiedades trabajan conjuto a display flex*/
+    align-items: center;/**/
+    width: 200px;
+}
+.logo img{
+    height: 160px;
+    width: 100%;
+}
+.menu{
+    height: 80px; /* no puede superar la altura de su contenedor principal*/
+
+}
+.menu nav{
+    height: 100%;
+}
+.menu ul{
+    height: 100%;
+    display: flex; /*alinear a los lados*/
+    list-style: none;/*Le quita los estilos predeterminados a la lista (le quita las viñetas)*/
+}
+.menu nav ul li {
+    height: 100%;
+    display: flex;/*para centrar con ayuda de las dos propiedades siguientes*/
+    justify-content: center;
+    align-items: center;
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 20px;
+}
+.inicio{
+    margin-right: 40px;
+}
+.redit_docente{
+    width: 150px;
+    color: rgb(253, 253, 253);
+    background-color: rgb(18, 11, 122);
+}

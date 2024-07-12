@@ -1,0 +1,32 @@
+
+.about-services{
+    height: 588px;
+}
+
+.contenedor-1{
+    text-align: center;
+    font-family: var(--fuente-1);
+    font-size: 20px;
+    width: 450px;
+    height: 300px;
+    background: var(--color-blanco);
+    position: absolute;
+    left: 200px;
+    top: 220px;
+}
+
+.contenedor-2{
+    text-align: center;
+    font-family: var(--fuente-1);
+    font-size: 20px;
+    width: 450px;
+    height: 300px;
+    background: var(--color-blanco);
+    position: absolute;
+    left: 800px;
+    top: 220px;
+}
+
+img{
+    width: 50%;
+}

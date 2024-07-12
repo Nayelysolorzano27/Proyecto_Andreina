@@ -1,0 +1,30 @@
+
+.contenedor-button{
+    display: flex;
+    justify-content: center;
+}
+.formulario__grupo-button{
+    display: inline-block;
+    position: flex;
+    justify-content: center;
+}
+
+.formulario-button{
+    font-family: "Signika Negative", sans-serif;
+    color: rgb(253, 253, 253);
+    font-weight: lighter;
+    background-color: rgb(11, 7, 63);
+    cursor: pointer;
+    width: 110px;
+    height: 60px;
+    border:2px;
+    border-radius: 5%;
+    margin: 0 20px;
+    font-size: 16px;
+    padding: 5%;
+}
+.formulario-button:hover{
+    background-color: rgba(9, 5, 66, 0.541);
+}
+
+

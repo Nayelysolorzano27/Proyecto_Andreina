@@ -1,0 +1,184 @@
+.head-cipt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 20px 0;
+  background: #ffffff;
+}
+
+.nav_bar-cipt {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 50px;
+  padding: 30px 0;
+  margin: auto;
+  font-family: var(--fuente-1);
+}
+.btn-menu {
+  display: none;
+}
+.ftt-navbar {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+}
+.marca-logo {
+  position: relative;
+  width: 50px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.marca-logo > img {
+  width: 250px;
+}
+
+.option-navBar {
+  display: flex;
+  width: 100%;
+}
+
+.nav_bar-cipt .container-items {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+}
+.items_navBar {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  color: var(--color-negro);
+  text-decoration: none;
+  font-size: 1rem;
+
+  transition: all ease 0.5s;
+}
+.items_navBar:hover {
+  height: 35px;
+  border-bottom: 5px solid var(--color-blanco);
+}
+
+.buttons-select .box-btn a {
+  color: var(--color-blue-dark);
+  background-color: var(--color-blanco);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px 10px;
+  padding: 5px 12px;
+  transition: all ease 0.4s;
+}
+
+.box-btn > a:hover {
+  color: var(--color-blanco);
+  background: var(--color-blue-dark-osc);
+}
+
+@media only screen and (max-width: 900px) {
+  .head-cipt {
+    background-color: var(--color-blanco);
+  }
+  .btn-menu {
+    display: block;
+    background: none;
+    border: none;
+    width: 40px;
+    color: var(--color-blanco);
+    font-style: 1rem;
+    height: 40px;
+  }
+  .btn-menu.active {
+    background: var(--color-blue-dark-osc);
+  }
+  .nav_bar-cipt {
+    padding: 10px 0;
+    width: 80%;
+    justify-content: space-between;
+  }
+  .marca-logo > img {
+    width: 50px;
+  }
+  .option-navBar {
+    background-color: var(--color-blanco);
+    padding-top: 70px;
+    width: 60%;
+    display: block;
+    transform: translateX(-100%);
+    transition: all ease 0.5s;
+
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+  }
+  .option-navBar.active {
+    transform: translateX(0);
+  }
+  .ftt-navbar {
+    display: block;
+    color: var(--color-blue-dark-osc);
+
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .buttons-select {
+    position: absolute;
+    top: 0px;
+    height: 30px;
+    width: 100%;
+    padding: 20px 0;
+    line-height: normal;
+  }
+  .buttons-select .box-btn {
+    width: 50%;
+    margin: auto;
+  }
+  .buttons-select .box-btn a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: var(--color-blanco);
+    background: var(--color-blue-dark-osc);
+  }
+  .option-navBar .container-items {
+    width: 70%;
+    display: block;
+  }
+  .items_navBar {
+    width: 100%;
+    color: var(--color-blue-dark-osc);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+  }
+  .items_navBar.active {
+    color: var(--color-blanco);
+    background: var(--color-blue-dark-osc);
+  }
+  .items_navBar:hover {
+    color: var(--color-blanco);
+  }
+}
+@media only screen and (max-width: 400px) {
+  .option-navBar {
+    width: 80%;
+  }
+}
+
+/* MAIN */
+
+/* .opac{
+        background-color: rgba(0, 132, 255, .3);
+        height: 100%;
+        width: 100%;
+    } */

@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100&;400;500&display=swap");
+@import url(navbar.css);
+@import url(footer.css);
+@import url(login.css);
+@import url(actividades.css);
+@import url(login-studen.css);
+@import url(login-teacher.css);
+@import url(EstilosD.css);
+@import url(estilos.css);
+/*@import url(EstilosAE2.css);
+@import url(EstilosAE1.css);*/
+@import url(activDocnt.css);
+@import url(menu.css);
+@import url(revisar.css);
+@import url(nav.css);
+@import url(main.css);
+@import url(actualizar.css);
+@import url(agregar.css);
+@import url(borrar.css);
+@import url(boton.css);
+@import url(registro.css);
+:root {
+  --color-rose-red: #df2d0d;
+  --color-dark: #000000;
+  --color-blue-dark-osc: #e7281b;
+  --color-tumbleweed: #e3b5a4;
+  --color-negro: rgb(0, 0, 0);
+  --color-blanco: rgba(153, 150, 150, 0.582);
+  --color-background: #267ba8;
+  --fuente-1: "Signika Negative", sans-serif;
+  --fuente-2: "Noto Sans SC", sans-serif;
+}
+
+* {
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position:relative;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../img/fond.jpg');
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+.item {
+  height: 100vh;
+  
+}
+
+.textos-header {
+
+  display: flex;
+  height: 500px;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+main .sobre-nosotros{
+ 
+  padding: 30px 0 60px 0;
+
+}
+.contenedor-sobre-nosotros{
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.titulo1{
+  
+  font-family: var(--fuente-1);
+}
+
+
+.about-services{
+  display: inline-block;
+}
+
+footer{
+  position: fixed;
+}
+
+table{
+  background-color: wheat;
+}
+
+.cuadro {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro li {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cuadro p {
+  margin: 5px 0;
+}
+
+.cuadro hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+.eliminar{
+  background-color: #ff6347;
+  color: white; 
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px; 
+  transition: background-color 0.3s ease;
+}
+eliminar:hover {
+  background-color: #d9534f;
+}
